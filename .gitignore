@@ -1,0 +1,66 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# =============== #
+# Unity Generated #
+# =============== #
+
+# Folders created by Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+
+# User-specific settings
+UserSettings/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Rider and VS
+.idea/
+.vscode/
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.tmproj
+*.unityproj
+*.suo
+*.ntvs_analysis.dat
+*.orig
+
+# Build results
+*.apk
+*.aab
+*.unitypackage
+
+# Unity Asset Store tools
+Assets/AssetStoreTools*
+
+# Unity-generated meta
+*.pidb.meta
+*.bak
+*.tmp
+
+# Visual Scripting / Bolt
+*.bolt
+*.bolt.meta
+
+# Platform-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# LFS and Git config
+.gitattributes
+*.log
+.collabignore
+
+# Optional: Ignore XR settings (if managed externally)
+# ProjectSettings/XRSettings.asset
